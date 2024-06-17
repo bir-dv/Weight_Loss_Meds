@@ -1,8 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  css: ['~/assets/css/tailwind.css', 'vuetify/lib/styles/main.sass'],
 
-  css: ['~/assets/css/tailwind.css'],
+
+
+  build: {
+    transpile: ['vuetify'],
+  },
+
 
   postcss: {
     plugins: {
@@ -10,4 +16,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  // modules: [
+  //   (_options, nuxt) => {
+  //     nuxt.hooks.hook('vite:extendConfig', (config) => {
+  //       // @ts-expect-error
+  //       config.plugins.push(vuetify({ autoImport: true }))
+  //     })
+  //   },
+  //   //...
+  // ],
+  
 })

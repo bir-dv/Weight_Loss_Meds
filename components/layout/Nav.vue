@@ -121,9 +121,13 @@
                 <!-- <a href="#"
               class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-green-600 transition duration-300 hidden md:block">Get
               Started</a> -->
-                <nuxt-link to="#"
+
+                <button @click="toggleModal"
                     class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-green-600 transition duration-300 hidden md:block">Get
-                    Started</nuxt-link>
+                    Started
+                </button>
+
+
                 <button @click="isOpen = !isOpen" class="text-gray-700 hover:text-gray-900 md:hidden">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -139,11 +143,13 @@
             <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Login</nuxt-link>
 
 
-            <button
+            <button @click="toggleModal"
                 class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-green-600">
                 Get Started
             </button>
         </div>
+        <getstartmodal :modal-active="modalActive" @close-model="toggleModal">
+        </getstartmodal>
     </nav>
 </template>
 
@@ -151,4 +157,12 @@
 import { ref } from 'vue';
 
 const isOpen = ref<boolean>(false);
+// const isOpen = ref(false)
+import getstartmodal from '../getstartmodal.vue';
+
+const modalActive = ref();
+const toggleModal = () => {
+    modalActive.value = !modalActive.value;
+};
+
 </script>

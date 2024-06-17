@@ -37,7 +37,7 @@
           <p class="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p> -->
 
           <div class="flex items-center justify-between mt-12 lg:justify-start">
-            <button
+            <button @click="toggleModal"
               class="bg-white font-bold rounded-lg py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-green-600 mb-6">
               Get Started
             </button>
@@ -63,6 +63,8 @@
 
       </div>
     </div>
+    <getstartmodal :modal-active="modalActive" @close-model="toggleModal">
+    </getstartmodal>
   </section>
 
 
@@ -104,7 +106,7 @@
               without injections.</p>
 
             <div class="flex items-center justify-between mt-6 md:justify-start">
-              <button
+              <button @click="toggleModal"
                 class="bg-white font-bold rounded-lg py-4 px-8 shadow-lg uppercase tracking-wider hover:bg-green-600 mb-6">
                 Get Started
               </button>
@@ -113,6 +115,8 @@
         </div>
       </main>
     </div>
+    <getstartmodal :modal-active="modalActive" @close-model="toggleModal">
+    </getstartmodal>
   </section>
 
   <!-- we can help you with -->
@@ -222,9 +226,18 @@
   </section>
 
 
-
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
+
+// import getstartmodal from './components/getstartmodal.vue';
+
+import getstartmodal from './components/getstartmodal.vue';
+
+const modalActive = ref();
+const toggleModal = () => {
+  modalActive.value = !modalActive.value;
+}
 
 </script>
