@@ -124,7 +124,10 @@
   <section class="mt-20">
     <div class="">
 
-      <h1 class="text-4xl font-mono font-bold text-gray-600 antialiased text-center ">We Can Help You With</h1>
+      <h1 class="text-4xl font-mono font-bold text-gray-600 antialiased text-center">How
+        Weight
+        loss
+        meds work</h1>
     </div>
   </section>
 
@@ -145,15 +148,17 @@
             </h3>
 
             <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+              <p>Maintaining a healthy weight requires frequent exercise, eating a balanced diet, and using
+                stress-reduction strategies.</p>
               <!-- <span class="font-bold text-gray-800 dark:text-gray-200">$129</span> -->
-              <button
+              <!-- <button
                 class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none"><svg
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                   <path fill-rule="evenodd"
                     d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
                     clip-rule="evenodd" />
                 </svg>
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -170,15 +175,18 @@
             </h3>
 
             <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+              <p>while you're not getting enough sleep. That may indicate inadequate sleep, poor quality sleep, or
+                difficulty falling or staying asleep. </p>
+
               <!-- <span class="font-bold text-gray-800 dark:text-gray-200">$129</span> -->
-              <button
+              <!-- <button
                 class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none"><svg
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                   <path fill-rule="evenodd"
                     d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
                     clip-rule="evenodd" />
                 </svg>
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -193,15 +201,18 @@
             </h3>
 
             <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+              <p>vital to sperm formation process. It affects bone and muscle mass, the production
+                of red blood cells, and how men store fat in their bodies.
+              </p>
               <!-- <span class="font-bold text-gray-800 dark:text-gray-200">$129</span> -->
-              <button
+              <!-- <button
                 class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none"><svg
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                   <path fill-rule="evenodd"
                     d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
                     clip-rule="evenodd" />
                 </svg>
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -216,15 +227,16 @@
 
 
   <!-- How Henry Meds Works -->
-  <section class="mt-20">
+  <!-- <section class="mt-20">
     <div class="">
 
       <h1 class="text-4xl font-mono font-bold text-gray-600 antialiased text-center ">How Weight Loss Meds Works</h1>
       <p class="text-xl font-mono text-gray-600 antialiased text-center">Weight Loss Meds Makes it easy to get started
         with no insurance required</p>
     </div>
-  </section>
+  </section> -->
 
+  <LayoutFooter />
 
 </template>
 

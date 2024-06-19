@@ -83,7 +83,7 @@
                     </div>
                 </li>
 
-                <li
+                <!-- <li
                     class="group  relative dropdown  px-3 text-gray-700 hover:text-green-700 cursor-pointer font-semi-bold text-base tracking-wide ">
                     <a>FAQ</a>
                     <div class="group-hover:block dropdown-menu absolute hidden h-auto">
@@ -106,7 +106,7 @@
                                     5</a></li>
                         </ul>
                     </div>
-                </li>
+                </li> -->
 
                 <!--to here-->
 
@@ -115,7 +115,7 @@
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-gray-900 hidden md:block">FAQ</nuxt-link> -->
                 <nuxt-link to="#"
                     class="py-2 px-3 text-gray-700 hover:text-green-700 hidden md:block">Contact</nuxt-link>
-                <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-green-700 hidden md:block">Login</nuxt-link>
+                <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-green-700 hidden md:block">Login</nuxt-link> -->
 
 
                 <!-- <a href="#"
@@ -140,7 +140,7 @@
         <!-- mobile menu -->
         <div :class="isOpen ? 'block' : 'hidden'" class="md:hidden">
             <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Contact</nuxt-link>
-            <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Login</nuxt-link>
+            <!-- <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Login</nuxt-link> -->
 
 
             <button @click="toggleModal"
