@@ -1,8 +1,9 @@
 <template>
 
 
-    <footer class="bg-emerald-50 dark:bg-gray-900  rounded-t-3xl w-full">
+    <footer class="bg-slate-100 dark:bg-gray-900  rounded-t-3xl w-full h-full">
         <div class="container p-6 mx-auto">
+
             <div class="lg:flex gap-x-96 ">
                 <div class="w-full -mx-6 lg:w-2/5">
                     <div class="px-20 pt-6">
@@ -78,11 +79,7 @@
                 <img class="grid grid-cols-1 place-items-center h-66" src="/assets/imgs/certificate2.png" alt="">
 
             </div> -->
-            <div class="flex justify-center mt-10 ">
-                <img class="scale-75 object-center w-auto h-96 rounded-xl lg:w-4/5" src="/assets/imgs/hipaa.png" />
-                <img class="scale-75 object-center w-auto h-96 rounded-xl lg:w-4/5" src="/assets/imgs/certified.png" />
 
-            </div>
 
             <hr class="h-px my-6 bg-gray-400 border-none dark:bg-gray-700">
 

@@ -1,12 +1,12 @@
 <template>
-    <div v-show="modalActive" class="relative flex justify-center" style="z-index: 999;">
+    <div v-show="signmodalActive" class="relative flex justify-center" style="z-index: 999;">
         <!-- x-data="{ isOpen: true }" -->
         <!-- <button @click="isOpen = true"
             class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
             Open Modal
         </button> -->
         <!-- x-show="isOpen" -->
-        <div v-if="modalActive" x-transition:enter="transition duration-300 ease-out"
+        <div v-if="signmodalActive" x-transition:enter="transition duration-300 ease-out"
             x-transition:enter-start="translate-y-4 opacity-0 sm:translate-y-0 sm:scale-95"
             x-transition:enter-end="translate-y-0 opacity-100 sm:scale-100"
             x-transition:leave="transition duration-150 ease-in"
@@ -31,7 +31,7 @@
                         <div class=" mt-2 text-center">
                             <div class="holds-the-iframe">
                                 <iframe id="frame" style="opacity: 1" class="w-[90vw] h-[70vh]"
-                                    src="https://form.jotform.com/clientservices98/the-weight-loss-meds-"
+                                    src="https://www.jotform.com/assign/241490299086162/231154514975054"
                                     frameborder="0">
                                 </iframe>
                             </div>
@@ -87,7 +87,7 @@
 defineEmits(["close-model"])
 
 defineProps({
-    modalActive: {
+    signmodalActive: {
         type: Boolean,
         default: false
     }

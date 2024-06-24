@@ -59,25 +59,25 @@
                 <!-- from here -->
 
                 <li
-                    class="group  relative dropdown  px-3 text-gray-700 hover:text-green-700 cursor-pointer font-semi-bold text-base tracking-wide ">
+                    class="group  relative dropdown  px-3 text-gray-700 hover:text-lime-500 cursor-pointer font-semi-bold text-base tracking-wide ">
                     <a>Treatments</a>
                     <div class="group-hover:block dropdown-menu absolute hidden h-auto">
 
                         <ul class="top-0 w-48 bg-white shadow px-6 py-8">
                             <li class="py-1"><a
-                                    class="block text-gray-700  text-base  hover:text-green-700 cursor-pointer">Item</a>
+                                    class="block text-gray-700  text-base  hover:text-lime-500 cursor-pointer">Item</a>
                             </li>
                             <li class="py-1"><a
-                                    class="block text-gray-700  text-base  hover:text-green-700 cursor-pointer">Item
+                                    class="block text-gray-700  text-base  hover:text-lime-500 cursor-pointer">Item
                                     2</a></li>
                             <li class="py-1"><a
-                                    class="block text-gray-700  text-base  hover:text-green-700 cursor-pointer">Item
+                                    class="block text-gray-700  text-base  hover:text-lime-500 cursor-pointer">Item
                                     3</a></li>
                             <li class="py-1"><a
-                                    class="block text-gray-700  text-base  hover:text-green-700 cursor-pointer">Item
+                                    class="block text-gray-700  text-base  hover:text-lime-500 cursor-pointer">Item
                                     4</a></li>
                             <li class="py-1"><a
-                                    class="block text-gray-700  text-base  hover:text-green-700 cursor-pointer">Item
+                                    class="block text-gray-700  text-base  hover:text-lime-500 cursor-pointer">Item
                                     5</a></li>
                         </ul>
                     </div>
@@ -114,7 +114,7 @@
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-gray-900 hidden md:block">Treatments</nuxt-link> -->
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-gray-900 hidden md:block">FAQ</nuxt-link> -->
                 <nuxt-link to="#"
-                    class="py-2 px-3 text-gray-700 hover:text-green-700 hidden md:block">Contact</nuxt-link>
+                    class="py-2 px-3 text-gray-700 hover:text-lime-500 hidden md:block">Contact</nuxt-link>
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-green-700 hidden md:block">Login</nuxt-link> -->
 
 
@@ -123,8 +123,13 @@
               Started</a> -->
 
                 <button @click="toggleModal"
-                    class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-green-600 transition duration-300 hidden md:block">Get
+                    class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-lime-500 transition duration-300 hidden md:block">Get
                     Started
+                </button>
+
+                <button @click="signtoggleModal"
+                    class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-lime-500 transition duration-300 hidden md:block">Sign
+                    Up To Our Program
                 </button>
 
 
@@ -139,17 +144,26 @@
         </div>
         <!-- mobile menu -->
         <div :class="isOpen ? 'block' : 'hidden'" class="md:hidden">
-            <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Contact</nuxt-link>
+            <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-lime-500">Contact</nuxt-link>
             <!-- <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Login</nuxt-link> -->
 
 
             <button @click="toggleModal"
-                class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-green-600">
+                class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-lime-500">
                 Get Started
             </button>
+            <button @click="signtoggleModal"
+                class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-lime-500">
+                Sign Up To Our Program
+            </button>
+
         </div>
         <getstartmodal :modal-active="modalActive" @close-model="toggleModal">
         </getstartmodal>
+
+        <signupmodal :signmodal-active="signmodalActive" @close-model="signtoggleModal"></signupmodal>
+
+
     </nav>
 </template>
 
@@ -159,10 +173,16 @@ import { ref } from 'vue';
 const isOpen = ref<boolean>(false);
 // const isOpen = ref(false)
 import getstartmodal from '../getstartmodal.vue';
+import signupmodal from '../signupmodal.vue';
 
 const modalActive = ref();
 const toggleModal = () => {
     modalActive.value = !modalActive.value;
+};
+
+const signmodalActive = ref();
+const signtoggleModal = () => {
+    signmodalActive.value = !signmodalActive.value;
 };
 
 </script>
