@@ -79,13 +79,13 @@
       </h1> -->
 
       <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
-        <div class="absolute w-full bg-lime-200 -z-10 md:h-96 rounded-2xl"></div>
+        <div class="absolute w-full bg-slate-100 -z-10 md:h-96 rounded-2xl"></div>
 
         <div
           class="w-full p-6 bg-blue-400 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
           <img
             class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
-            src="/assets/imgs/first_imag.jpg" alt="" />
+            src="/assets/imgs/Oral_Semaglutide.jpg" alt="" />
 
           <div class="mt-2 md:mx-6">
             <div>
@@ -138,26 +138,24 @@
 
         <h1 class="text-4xl font-mono font-bold text-gray-600 antialiased text-center">How
           Weight
-          loss
-          meds work</h1>
+          Loss
+          Meds Work</h1>
       </div>
       <main class="relative z-20 w-full mt-6 md:flex md:items-center xl:mt-12 gap-10">
         <div class="absolute w-full bg-transparent -z-10 md:h-96 rounded-2xl"></div>
 
         <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto pb-5">
           <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
-            style="background-image: url(https://images.unsplash.com/photo-1518459031867-a89b944bffe4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYWluZXJ8ZW58MHx8MHx8fDI%3D)">
+            style="background-image: url(https://images.pexels.com/photos/1181450/pexels-photo-1181450.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load)">
           </div>
 
           <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-80 dark:bg-gray-800">
-            <h3 class="py-2 font-bold tracking-wide text-center text-gray-950 uppercase dark:text-white">Weight
-              Management
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-950 uppercase dark:text-white">Triage
             </h3>
 
             <div class="flex items-center justify-between px-4 py-4 bg-slate-100 dark:bg-gray-700 text-center">
-              <p class="text-gray-800">Maintaining a healthy weight requires frequent exercise, eating a balanced diet,
-                and using
-                stress-reduction strategies.</p>
+              <p class="text-gray-800">Fill out our online form by answering a few simple questions. This will help us
+                determine your eligibility before sending you triage.</p>
               <!-- <span class="font-bold text-gray-800 dark:text-gray-200">$129</span> -->
               <!-- <button
                 class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none"><svg
@@ -175,17 +173,18 @@
 
         <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto pb-5">
           <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
-            style="background-image: url(https://images.unsplash.com/photo-1618517047922-d18a5a36c109?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zb21uaWF8ZW58MHx8MHx8fDI%3D)">
+            style="background-image: url(https://images.pexels.com/photos/7195310/pexels-photo-7195310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
           </div>
 
           <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-80 dark:bg-gray-800">
-            <h3 class="py-2 font-bold tracking-wide text-center text-gray-950 uppercase dark:text-white">Insomnia
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-950 uppercase dark:text-white">Online
+              Consultation
             </h3>
 
             <div class="flex items-center justify-between px-4 py-4 bg-slate-100 dark:bg-gray-700 text-center">
-              <p class="text-gray-800">while you're not getting enough sleep. That may indicate inadequate sleep, poor
-                quality sleep, or
-                difficulty falling or staying asleep. </p>
+              <p class="text-gray-800">We will put you in contact with one of our knowledgeable doctors, who will
+                determine the most effective regimen for your conditions.
+              </p>
 
               <!-- <span class="font-bold text-gray-800 dark:text-gray-200">$129</span> -->
               <!-- <button
@@ -202,16 +201,17 @@
 
         <div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto pb-5">
           <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
-            style="background-image: url(https://images.unsplash.com/photo-1532384661798-58b53a4fbe37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGJvZHlidWlsZGluZ3xlbnwwfHwwfHx8Mg%3D%3D)">
+            style="background-image: url(https://images.pexels.com/photos/7857541/pexels-photo-7857541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
           </div>
 
           <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-80 dark:bg-gray-800">
-            <h3 class="py-2 font-bold tracking-wide text-center text-gray-950 uppercase dark:text-white">Testosterone
+            <h3 class="py-2 font-bold tracking-wide text-center text-gray-950 uppercase dark:text-white">Straight To You
             </h3>
 
             <div class="flex items-center justify-between px-4 py-4 bg-slate-100 dark:bg-gray-700 text-center">
-              <p class="text-gray-800">vital to sperm formation process. It affects bone and muscle mass, the production
-                of red blood cells, and how men store fat in their bodies.
+              <p class="text-gray-800">Avoid the awkward back and forth to the doctors and have Weight Loss Meds deliver
+                your medication straight trough mail.
+
               </p>
               <!-- <span class="font-bold text-gray-800 dark:text-gray-200">$129</span> -->
               <!-- <button
@@ -258,13 +258,13 @@
           <div class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
 
 
-            <div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
+            <div class="max-w-sm mx-auto border shadow-lg rounded-lg md:mx-4 dark:border-gray-700">
               <div class="p-6">
                 <h1 class="text-xl font-bold text-gray-700 capitalize lg:text-2xl dark:text-white">Weight Loss Meds
                 </h1>
 
-                <p class="mt-4 text-gray-500 dark:text-gray-300">
-                  how we compare to other programs
+                <p class="mt-4 text-gray-500 dark:text-gray-300 ">
+                  HOW WE COMPARE TO OTHER PROGRAMS
                 </p>
 
 
@@ -273,7 +273,7 @@
               <hr class="border-gray-200 dark:border-gray-700">
 
               <div class="p-6">
-                <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:
+                <h1 class="text-lg font-bold text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:
                 </h1>
 
                 <div class="mt-8 space-y-4">
@@ -299,27 +299,7 @@
                     <span class="mx-4 text-gray-700 dark:text-gray-300">FDA Approved</span>
                   </div>
 
-                  <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
-                      fill="currentColor">
-                      <path fill-rule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clip-rule="evenodd" />
-                    </svg>
 
-                    <span class="mx-4 text-gray-700 dark:text-gray-300">Made In The USA</span>
-                  </div>
-
-                  <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
-                      fill="currentColor">
-                      <path fill-rule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clip-rule="evenodd" />
-                    </svg>
-
-                    <span class="mx-4 text-gray-700 dark:text-gray-300">Not mixed with B12 Vitamin</span>
-                  </div>
 
                   <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
@@ -341,16 +321,38 @@
                     </svg>
 
                     <span class="mx-4 text-gray-700 dark:text-gray-300">Money back guarantee</span>
+                  </div>
+                  <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
+                      fill="currentColor">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
+                    </svg>
+
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Made In The USA</span>
+                  </div>
+
+                  <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
+                      fill="currentColor">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
+                    </svg>
+
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Not mixed with B12 Vitamin</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
+            <div class="max-w-sm mx-auto border shadow-lg rounded-lg md:mx-4 dark:border-gray-700">
               <div class="p-6">
                 <h1 class="text-xl font-bold text-gray-700 capitalize lg:text-2xl dark:text-white">other programs</h1>
 
                 <p class="mt-4 text-gray-500 dark:text-gray-300">
-                  how we compare to other programs
+                  HOW WE COMPARE TO OTHER PROGRAMS
+
                 </p>
 
 
@@ -360,7 +362,7 @@
               <hr class="border-gray-200 dark:border-gray-700">
 
               <div class="p-6">
-                <h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:
+                <h1 class="text-lg font-bold text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:
                 </h1>
 
                 <div class="mt-8 space-y-4">
@@ -386,27 +388,7 @@
                     <span class="mx-4 text-gray-700 dark:text-gray-300">FDA Approved</span>
                   </div>
 
-                  <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
-                      fill="currentColor">
-                      <path fill-rule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clip-rule="evenodd" />
-                    </svg>
 
-                    <span class="mx-4 text-gray-700 dark:text-gray-300">Made In The USA</span>
-                  </div>
-
-                  <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
-                      fill="currentColor">
-                      <path fill-rule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clip-rule="evenodd" />
-                    </svg>
-
-                    <span class="mx-4 text-gray-700 dark:text-gray-300">Not mixed with B12 Vitamin</span>
-                  </div>
 
                   <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-400" viewBox="0 0 20 20"
@@ -428,6 +410,27 @@
                     </svg>
 
                     <span class="mx-4 text-gray-700 dark:text-gray-300">Money back guarantee</span>
+                  </div>
+                  <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
+                      fill="currentColor">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
+                    </svg>
+
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Made In The USA</span>
+                  </div>
+
+                  <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
+                      fill="currentColor">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
+                    </svg>
+
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Not mixed with B12 Vitamin</span>
                   </div>
                 </div>
               </div>
@@ -452,30 +455,32 @@
 
 
         <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-          <img class="w-full h-full lg:max-w-3xl" src="/assets/imgs/image.png" alt="Catalogue-pana.svg">
+          <img class="w-full h-full lg:max-w-3xl -ml-40 -mt-8" src="/assets/imgs/image_a.png" alt="">
         </div>
         <div class="w-full lg:w-1/2">
           <div class="lg:max-w-lg">
             <h1 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">The <span
-                class="text-lime-500 ">"Game-Changer"</span> Hollywood
+                class=" ">"Game-Changer"</span> Hollywood
               Weight Loss Formula is
-              <span class="text-lime-500 ">Here!</span>
+              <span class="">Here!</span>
             </h1>
 
             <p class="mt-3 text-gray-600 dark:text-gray-400">No exercise, no doctor's visit, all-convenient prescription
               based weight loss guided by dedicated doctors.
               Start Today For Just $295</p>
-            <p class="mt-3 text-gray-600 dark:text-gray-400">
+            <!-- <p class="mt-3 text-gray-600 dark:text-gray-400">
               Shed 15% of your body weight effortlessly with compounded Semaglutide, the same active ingredient in
-              Wegovy® and Ozempic®</p>
+              Wegovy® and Ozempic®</p> -->
             <p class="mt-3 text-gray-600 dark:text-gray-400">Meet our doctors online, get your prescription hassle-free
             </p>
             <p class="mt-3 text-gray-600 dark:text-gray-400">Your success team guides you to a sleek new figure,
               stress-free
             </p>
-            <p class="mt-3 text-gray-600 dark:text-gray-400">Start today, includes Provider & Medication, <span
-                class="text-black">NO INSURANCE
-                NEEDED</span>
+            <p class="mt-3 text-gray-600 dark:text-gray-400">Start today, includes Provider & Medication,
+            </p>
+            <p class="mt-3 font-bold text-gray-700 dark:text-gray-400">
+              NO INSURANCE
+              NEEDED
             </p>
 
             <button @click="toggleModal"
@@ -538,7 +543,7 @@
   <section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center px-4 pb-12 -pt-6 mx-auto text-center">
       <h2 class="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
-        Join Our <span class="text-lime-500">Mailing List.</span>
+        Join Our <span class="">Mailing List.</span>
       </h2>
 
       <p class="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300">
@@ -551,7 +556,7 @@
           class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-green-600">
           Join Our Mailing List </button> -->
         <button href="#"
-          class="bg-[#1877F2] flex gap-x-3 text-sm sm:text-base items-center justify-center text-white rounded-lg hover:bg-lime-500 duration-300 transition-colors border border-transparent px-8 py-2.5">
+          class="bg-[#1877F2] flex gap-x-3 text-sm sm:text-base items-center justify-center text-white rounded-lg  duration-300 transition-colors border border-transparent px-8 py-2.5">
           Join Our Mailing List
         </button>
       </div>

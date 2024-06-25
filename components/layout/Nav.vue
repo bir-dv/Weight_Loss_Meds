@@ -58,7 +58,7 @@
 
                 <!-- from here -->
 
-                <li
+                <!-- <li
                     class="group  relative dropdown  px-3 text-gray-700 hover:text-lime-500 cursor-pointer font-semi-bold text-base tracking-wide ">
                     <a>Treatments</a>
                     <div class="group-hover:block dropdown-menu absolute hidden h-auto">
@@ -81,7 +81,7 @@
                                     5</a></li>
                         </ul>
                     </div>
-                </li>
+                </li> -->
 
                 <!-- <li
                     class="group  relative dropdown  px-3 text-gray-700 hover:text-green-700 cursor-pointer font-semi-bold text-base tracking-wide ">
@@ -113,8 +113,8 @@
                 <!-- <button class="peer px-5 py-2 bg-green-600 hover:bg-green-700 text-white">Treatments</button> -->
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-gray-900 hidden md:block">Treatments</nuxt-link> -->
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-gray-900 hidden md:block">FAQ</nuxt-link> -->
-                <nuxt-link to="#"
-                    class="py-2 px-3 text-gray-700 hover:text-lime-500 hidden md:block">Contact</nuxt-link>
+                <!-- <nuxt-link to="#"
+                    class="py-2 px-3 text-gray-700 hover:text-lime-500 hidden md:block">Contact</nuxt-link> -->
                 <!-- <nuxt-link to="#" class="py-2 px-3 text-gray-700 hover:text-green-700 hidden md:block">Login</nuxt-link> -->
 
 
@@ -122,14 +122,14 @@
               class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-green-600 transition duration-300 hidden md:block">Get
               Started</a> -->
 
-                <button @click="toggleModal"
+                <!-- <button @click="toggleModal"
                     class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-lime-500 transition duration-300 hidden md:block">Get
                     Started
-                </button>
+                </button> -->
 
                 <button @click="signtoggleModal"
-                    class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-lime-500 transition duration-300 hidden md:block">Sign
-                    Up To Our Program
+                    class="py-2 px-3 bg-blue-500 text-white rounded  transition duration-300 hidden md:block">
+                    AFFILIATE
                 </button>
 
 
@@ -148,10 +148,10 @@
             <!-- <nuxt-link to="#" class="block py-2 px-3 text-sm hover:bg-green-700">Login</nuxt-link> -->
 
 
-            <button @click="toggleModal"
+            <!-- <button @click="toggleModal"
                 class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-lime-500">
                 Get Started
-            </button>
+            </button> -->
             <button @click="signtoggleModal"
                 class="bg-white font-bold rounded-lg py-2 px-6 shadow-lg uppercase tracking-wider hover:bg-lime-500">
                 Sign Up To Our Program
